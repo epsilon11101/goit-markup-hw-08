@@ -103,7 +103,7 @@ input[type=button]:hover {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .logo {
     font-size: 40px;
   }
@@ -214,7 +214,7 @@ header nav .nav-item a:not([href^="#"]):hover::after {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   header nav.desk {
     display: none;
   }

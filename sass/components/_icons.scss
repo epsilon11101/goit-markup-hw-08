@@ -1,0 +1,24 @@
+.svg-icon{
+  fill: map-get($brand_colors,'svg-color');
+  width: 62px;
+  height: 45px;
+}
+
+.fa-stack{
+    .fa{
+        color: white;
+        &.fa-circle-thin{
+            color: white;
+        }
+        &.fa-circle { opacity:0.0; color: #03a9f4; }
+
+    }
+    &:hover{
+        .fa{
+            &.fa-circle-thin { color: #03a9f4; }
+            &.fa.fa-circle { opacity:1.0 }
+        }
+    }
+}
+
+.fa-brands:hover {color: white;}

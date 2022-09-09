@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $brand_font_family;
+    color: map-get($brand_colors,'text-main-color');
+    background-color: map-get($brand_colors,'background-color');
+}
+
+input,textarea{
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+ul,ol{
+    list-style: none;
+    margin:0; padding: 0; border:0;
+    cursor:pointer;
+}
+i{
+    cursor: pointer;
+}
+
+a{
+    all:unset;
+    cursor:pointer;
+ }
+
+h2 {
+     text-align: center;
+     line-height: 42.19px;
+     letter-spacing: 3%;
+     font-weight: 700;
+     font-size: 36px;
+ }
+
+.container{
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    font-family: 'Raleway',
+    sans-serif;
+    color: map-get($brand_colors,'primary-blue');
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 31px;
+    transition: all 0.5s;
+    &:hover{
+        color: map-get($brand_colors,'logo-hover-color') ;
+    }
+}
+
+.banner,
+footer {
+    background-color:map-get($brand_colors,'primary-gray');
+}
+    
+
+a[href^='mailto'],
+a[href^='tel'] {
+    color: map-get($brand_colors,'link-main-color');
+}
+
+::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+input[type="button"]{
+    font-size: 20px;
+    color: white;
+    background-color: map-get($brand_colors,'primary-blue');
+    border-radius: 4px;
+    width: 261px;
+    height: 50px;
+    border: solid 2px map-get($brand_colors,'primary-blue');
+    transition: all 1s;
+
+    &:hover{
+            background-color: map-get($brand_colors,'primary-gray');
+            color: map-get($brand_colors,'primary-blue');
+            cursor: pointer;
+    }
+}
+
+.desk{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+.logo {
+    font-size: 40px;
+}
+
+}

@@ -1,0 +1,42 @@
+.what_do_we_do{
+    max-width: 1170px;    
+
+    & h2{
+        margin-bottom: 52px;
+    }
+    &  .what_do_we_do_container{
+    position: relative;
+    max-height: 294px;
+    max-width: 370px;
+
+        & img{
+            width: 370px;
+            height: 294px;
+        }
+
+        & div{
+            color: white;
+            background-color: #2f303ad2;
+            position: absolute;
+            top: 80%;
+            width: 370px;
+            height: 20%;
+            text-align: center;
+            transition: height 0.5s  , top 0.5s;
+            
+            &:hover{
+                  top: 0%;
+                  height: 100%
+            }
+        }
+    }
+
+    & ul{
+        gap: 30px;
+    }
+
+    & li {
+     transition: all 0.5s;
+     object-fit: cover;       
+    }
+}

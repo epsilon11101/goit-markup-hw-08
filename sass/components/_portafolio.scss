@@ -1,0 +1,63 @@
+.portafolio{
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1170px;
+    max-height: 1360px;
+    place-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    & figure {
+        width: 370px;
+        min-height: 404px;
+        cursor: pointer;
+        text-align: left;
+        border: 1px solid #EEEEEE;    
+        margin: 0 0;
+
+        & figcaption{
+            &>p{
+                color: #757575;
+            }
+        }
+
+        & img{
+            width: 370px;
+            height: 294px;
+            transition: all 1s;
+            object-fit: cover;      
+            
+            &:hover{
+                filter: grayscale(80%);
+            }
+        }
+
+
+        & .img{
+            position: relative;
+            overflow: hidden;
+            
+            &:hover{
+                & .img_overlay{
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        & .img_overlay{
+            position: absolute;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+            background-color:#2195f3c8;
+            color: white;
+            text-align: center;
+            transition: transform 250ms ease;
+            transform: translateY(135%);
+
+            & p{
+                 margin: 20px ;
+            }
+        }
+    }
+}

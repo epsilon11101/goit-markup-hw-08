@@ -1,0 +1,46 @@
+.details-container{
+    gap: 30px; 
+    font-weight: 700;
+    text-align: left;
+    cursor: default;
+    margin-top: 89px;
+    margin-bottom: 99px;
+    max-width: 1170px;   
+
+
+    & .card{
+        width: 270px;
+        height: 251px;
+        justify-content: stretch;
+
+        & .card-image{
+            background-color: #F5F4FA;
+            width: 270px;
+            height: 120px;
+
+            & img{
+                max-width: 70px;
+                max-height: 70px;
+            }
+        }
+
+    }
+
+    & .card-content{
+        background-color: white;
+        min-height: 150px;
+
+        & p.description{
+            color: #757575;
+            font-weight: 400px;
+            font-size: 13px;
+            line-height: 24px;
+            letter-spacing: 3%;
+
+        }
+    }
+
+    & b:hover{
+        color: #757575;
+    }
+}

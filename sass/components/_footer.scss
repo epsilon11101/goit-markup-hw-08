@@ -1,0 +1,107 @@
+footer{
+    color: white;
+    height: 252px;
+    & .footer-container{
+        padding-top: 60px;
+        width: 1170px;
+        gap: 86px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+            & .footer-address address, .footer-icons div{
+                width: 231px;
+                height: 95px;
+
+            }
+
+            & .footer-address {
+                & address {
+                    & ul{
+                        margin-top: 6px;
+                        gap:9px;
+                    }
+                }
+            }
+
+
+            & .footer-suscription{
+                & form{
+                    width: 570px;
+                    height: 85px;
+                    & p{
+                        margin-top: 0px;
+                    }
+                }
+
+                & button[type='submit']{
+                    width: 200px;
+                    height: 50px;
+                    background: map-get($brand_colors,'primary-blue');
+                    box-shadow: 0px 4px 4px rgba(map-get($brand_colors,'text-main-color'), 0.15);
+                    border-radius: 4px;
+                    color: map-get($brand_colors,'background-color');
+                    text-align: center;
+                    position: relative;
+
+                    & .svg-icon{
+                            fill: map-get($brand_colors,'background-color');
+                            position: absolute;
+                            left: 80%;
+                            top: 20%;
+                    }
+                }
+
+                input{
+                    width: 358px;
+                    height: 50px;
+                    border: 1px solid rgba( map-get($brand_colors,'background-color'), 0.3);
+                    filter: drop-shadow(0px 4px 4px rgba(map-get($brand_colors,'text-main-color'), 0.15));
+                    border-radius: 4px;
+                    background-color: transparent;
+                    color:  map-get($brand_colors,'background-color');
+                    padding: 15px 15px 15px 15px;
+                }
+
+            }
+
+            & .footer-icons{
+                    width: 204px;
+                    height: 48px;
+                    
+                    & ul{
+                            font-size: 12px;
+                            color:map-get($brand_colors,'background-color');
+                    }
+
+                    & h4{
+                        margin-top: 0px;
+                    }
+
+                    & .fa-stack {
+                        & .fa{
+                            &.fa-circle-thin{
+                                color: map-get($brand_colors,'primary-gray');
+                            }
+                            &.fa-circle{
+                                 opacity:1;
+                                 color:rgba(map-get($brand_colors,'background-color'), 0.1);
+                            }
+                        }
+                        &:hover{
+                            & .fa{
+                                &.fa-circle-thin{
+                                    color:map-get($brand_colors,'primary-blue');
+                                }
+                                &.fa-circle{
+                                    opacity:1;
+                                    color:map-get($brand_colors,'primary-blue');
+                                }
+                            }
+                        }
+                    }
+
+                    
+            }
+        }
+
+}

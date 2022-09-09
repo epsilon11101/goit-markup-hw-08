@@ -1,0 +1,22 @@
+{
+  "name": "-goit-markup-hw-07",
+  "version": "1.0.0",
+  "description": "\"goit sass\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass  sass:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsilon11101/-goit-markup-hw-07.git"
+  },
+  "keywords": [
+    "goit"
+  ],
+  "author": "Aaron MV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epsilon11101/-goit-markup-hw-07/issues"
+  },
+  "homepage": "https://github.com/epsilon11101/-goit-markup-hw-07#readme"
+}

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/4050c71461.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <header class="container">
+
+
+        <!-- nav section -->
+        <nav class="center desk notransition">
+            <ul class="center">
+                <li><a href="#" class="logo">WebStudio</a></li>
+                <li class="nav-item"><a href="#"">Estudio</a></li>
+                <li class=" nav-item"><a href="portafolio.html">Portafolio</a></li>
+                <li class="nav-item"><a href="contactos.html">Contactos</a></li>
+
+            </ul>
+
+            <ul class="center" style=" padding-left: 320px;">
+                <li><a href="mailto:info@devstudio.com"> <span><i class="fa-solid fa-envelope"></i></span>
+                        info@devstudio.com</a></li>
+                <li><a href="tel:+525555296000"><span><i class="fa-solid fa-mobile-button"></i></span>
+                        +52 55 5529
+                        6000</a></li>
+            </ul>
+        </nav>
+
+        <!-- nav mobile  -->
+        <nav class="mobile ">
+
+            <ul class="left burger-king">
+                <li><a href="#" class="logo">WebStudio</a></li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+
+            <div class="burger-king-menu right" style="padding-right:21px">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <ul class="burger-king-menu">
+                <ul class="left-column">
+
+                    <li class="nav-item"><a href="#"">Estudio</a></li>
+                <li class=" nav-item"><a href="portafolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a href="contactos.html">Contactos</a></li>
+
+                </ul>
+            </ul>
+
+            <ul class="left-column burger-king-menu" style="margin-top:306px;">
+                <li><a href="tel:+525555296000"><span>
+                            +52 55 5529
+                            6000</a></li>
+                <li><a href="mailto:info@devstudio.com">
+                        info@devstudio.com</a></li>
+
+            </ul>
+
+            <ul class="left nav-footer burger-king-menu">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedln</a></li>
+            </ul>
+        </nav>
+
+        <!-- contact section -->
+
+
+    </header>
+
+    <!-- main section -->
+    <main>
+
+        <!-- modal section -->
+
+        <section class="center modal-container modal-hidden">
+
+            <div class="modal-card center-column">
+                <i class="fa-solid fa-circle-xmark fa-bounce"></i>
+                <h3>Deje sus datos, nos contactaremos con usted</h3>
+                <form action="" name="contacto" class="container center-column">
+
+                    <label class="center-left">
+                        <p class="label">Username</p>
+                        <div class="form-icon">
+                            <input type="text" name="username" />
+                            <span class="input-icon"><i class="fa-solid fa-user"></i></span>
+
+                        </div>
+
+                    </label>
+
+
+                    <label class="center-left">
+                        <p>Telefóno</p>
+                        <div class="form-icon">
+                            <input type="tel" name="phone" autofocus />
+                            <span class="input-icon"><i class="fa-solid fa-phone"></i></span>
+                        </div>
+
+                    </label>
+
+                    <label class="center-left">
+                        <p>E-mail</p>
+                        <div class="form-icon">
+                            <input type="email" name="email" autofocus />
+                            <span class="input-icon"><i class="fa-solid fa-envelope"></i></span>
+                        </div>
+
+                    </label>
+
+                    <label class="center-left">
+                        <p>Comentarios</p>
+                        <textarea name="feedback" rows="15" placeholder="Introduzca el texto"></textarea>
+
+                    </label>
+
+                    <label class="center">
+                        <input type="checkbox" name="message" value="ok" checked />
+                        <p>Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
+                    </label>
+
+
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </div>
+
+        </section>
+
+        <!-- banner section -->
+        <section class="banner center-column ">
+            <div>
+                <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <input type="button" value="Solicite nuestro servicio">
+            </div>
+        </section>
+
+        <!-- DETAILS SECTION -->
+        <section class="details-container  center container">
+
+            <div class=" card center-column">
+                <div class="card-image center">
+                    <img src="./images/svg/antena.svg" alt="">
+                </div>
+
+                <div class="card-content">
+                    <p><b>ATENCION A LOS DETALLES</b></p>
+                    <p class="description">Nos adentramos en todos los detalles y procesos de su
+                        negocio, para así
+                        desarrollar una solución a su
+                        medida.</p>
+                </div>
+
+            </div>
+
+            <div class=" card center-column">
+                <div class="card-image center">
+                    <img src="./images/svg/reloj.svg" alt="">
+                </div>
+
+                <div class="card-content">
+                    <p><b>PUNTUALIDAD</b></p>
+                    <p class="description">Con nosotros, usted puede sentirse seguro y protegido. Un principio
+                        importante de
+                        la empresa:
+                        respetar su tiempo y respetar los plazos acordados.</p>
+                </div>
+
+            </div>
+
+            <div class=" card center-column">
+                <div class="card-image center">
+                    <img src="./images/svg/diagrama.svg" alt="diagrama">
+                </div>
+
+                <div class="card-content">
+                    <p><b>PLANIFICACIÓN</b></p>
+                    <p class="description">Usted podrá observar y participar en cada fase del desarrollo y
+                        aplicación de
+                        soluciones.</p>
+                </div>
+
+            </div>
+
+            <div class=" card center-column">
+                <div class="card-image center">
+                    <img src="./images/svg/astronauta.svg" alt="">
+                </div>
+
+                <div class="card-content">
+                    <p><b>TECNOLOGÍA MODERNA</b></p>
+                    <p class="description">Usamos herramientas innovadoras para resolver las tareas asignadas. Es
+                        hora
+                        de
+                        simplificar los
+                        procesos laborales.</p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+
+        <!-- WHAT DO WE DO SECTION -->
+
+        <section class="what_do_we_do container ">
+            <h2>A qué nos dedicamos</h2>
+
+            <ul class="center">
+                <li>
+                    <div class="what_do_we_do_container">
+                        <img src="./images/webPage_images/image1.jpg" alt="programming">
+                        <div class="center ">
+                            <p>APLICACIONES DE ESCRITORIO</p>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="what_do_we_do_container">
+                        <img src="./images/webPage_images/image2.jpg" alt="app desegin">
+                        <div class="center">
+                            <p>APLICACIONES MÓVILES</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="what_do_we_do_container">
+                        <img src="./images/webPage_images/image3.jpg" alt="graphic designer">
+                        <div class="center">
+                            <p>SOLUCIONES DE DISEÑO</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+
+
+        </section>
+
+        <!-- TEAM SECTION -->
+
+        <section class="our-team-container center-column">
+            <div class="container">
+                <h2>Nuestro Equipo</h2>
+                <div class="our_team_div">
+                    <ul class="our_team center">
+                        <li>
+                            <figure>
+                                <div>
+                                    <img src="./images/team_images/image1.jpg" alt="Andres Cubo team member">
+                                </div>
+
+                                <figcaption class="center-column">
+                                    <div class="center-column">
+                                        <h4>Andrés Cubo</h4>
+                                        <p>Diseñador de Productos</p>
+                                    </div>
+
+                                    <ul class="center">
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-facebook-f fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-twitter fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-instagram fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands  fa-linkedin-in fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <div>
+                                    <img src="./images/team_images/image3.jpg" alt="Carla Palaciosteam member">
+                                </div>
+
+                                <figcaption class="center-column">
+                                    <div class="center-column">
+                                        <h4>Carla Palacios</h4>
+                                        <p>Desarrolladora Frontend</p>
+                                    </div>
+
+                                    <ul class="center">
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-facebook-f fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-twitter fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-instagram fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands  fa-linkedin-in fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div>
+                                    <img src="./images/team_images/image4.jpg" alt="Mario Dorado team member">
+                                </div>
+
+                                <figcaption class="center-column">
+                                    <div class="center-column">
+                                        <h4>Mario Dorado</h4>
+                                        <p>Marketing</p>
+                                    </div>
+
+                                    <ul class="center">
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-facebook-f fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-twitter fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-instagram fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands  fa-linkedin-in fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div>
+                                    <img src="./images/team_images/image2.jpg" alt="Pablo Mijangos team member"
+                                        width="300">
+                                </div>
+
+                                <figcaption class="center-column">
+                                    <div class="center-column">
+                                        <h4>Pablo Mijangos</h4>
+                                        <p>Diseñador UI</p>
+                                    </div>
+
+                                    <ul class="center">
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-facebook-f fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-twitter fa-1x fa-stack-1x"></i>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands fa-instagram fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <li><a href="">
+                                                <span class="fa-stack fa-2x">
+                                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i class="fa-brands  fa-linkedin-in fa-1x fa-stack-1x"></i>
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- REGULAR CLIENTS -->
+        <section class="clientes container">
+            <h2>Clientes Regulares</h2>
+            <ul class="center">
+                <li class="container-svg center">
+                    <svg viewBox="0 0 50 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente1"></use>
+                    </svg>
+                </li>
+                <li class="container-svg center">
+                    <svg viewBox="0 0 50 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente2"></use>
+                    </svg>
+                </li>
+                <li class="container-svg center">
+                    <svg viewBox="0 0 50 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente3"></use>
+                    </svg>
+                </li>
+                <li class="container-svg center">
+                    <svg viewBox="0 0 50 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente4"></use>
+                    </svg>
+
+
+                </li>
+                <li class="container-svg center">
+                    <svg viewBox="0 0 50 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente5"></use>
+                    </svg>
+                </li>
+                <li class="container-svg center">
+                    <svg viewBox="0 0 100 50" class="svg-icon">
+                        <use xlink:href="./images/svg/icons.svg#cliente6"></use>
+                    </svg>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <!-- footer section -->
+    <footer class="container center">
+        <div class="container footer-container left">
+            <div class="left-column footer-address">
+                <a href="#" class="logo">WebStudio</a>
+                <address class="left-column">
+                    <ul class="left-column">
+                        <li><a href="#">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+                        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
+                    </ul>
+                </address>
+            </div>
+
+
+            <div class="footer-icons left-column ">
+                <div>
+                    <h4>Encuentranos en:</h4>
+                    <ul class="center">
+                        <li><a href="">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa-brands fa-facebook-f fa-1x fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa-brands fa-twitter fa-1x fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa-brands fa-instagram fa-1x fa-stack-1x"></i>
+                                </span>
+
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa-brands  fa-linkedin-in fa-1x fa-stack-1x"></i>
+                                </span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="footer-suscription left-column ">
+                <form action="" name="register">
+                    <label class="center-left">
+                        <p>SUSCRÍBASE al boletín informativo </p>
+                        <div class="form-icon">
+                            <input type="email" name="email" autofocus placeholder="Correo Electrónico" />
+                            <button type="submit">
+                                Suscribase
+                                <span>
+                                    <svg viewBox="0 0 100 50" class="svg-icon">
+                                        <use xlink:href="./images/svg/icons.svg#enviar"></use>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+
+                    </label>
+
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

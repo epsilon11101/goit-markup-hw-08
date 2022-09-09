@@ -1,0 +1,27 @@
+.banner{
+    background: map-get($brand_colors,'text-main-color') url('../images/webPage_images/banner.jpg') no-repeat fixed center/cover;
+    color: map-get($brand_colors,'background-color');
+    font-weight: 900;
+    font-size: 34px;
+    letter-spacing: 6%;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+        position: absolute;
+        content: "";
+        background-color: rgba(map-get($brand_colors,'text-main-color'), 0.4);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &div{
+        width: 696px;
+    }
+}

@@ -1,0 +1,19 @@
+$brand_colors:(
+    'primary-blue': #2196F3,
+    'primary-gray': #2F303A,
+    'background-color': white,
+    'text-main-color': black,
+    'logo-hover-color':purple,
+    'link-main-color':#757575,
+    'svg-color':#AFB1B8
+);
+
+$brand_font_family: Roboto,sans-serif;
+
+
+ @mixin justify($content) {
+    justify-content: $content;
+ }
+ @mixin align-items($align){
+    align-items: $align;
+ }

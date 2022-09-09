@@ -455,6 +455,13 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   width: 696px;
 }
 
+@media screen and (max-width: 767px) {
+  .banner {
+    background: url("../images/webPage_images/banner.jpg") center/cover;
+    height: 400px;
+    font-size: 26px;
+  }
+}
 .details-container {
   gap: 30px;
   font-weight: 700;

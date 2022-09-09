@@ -25,3 +25,12 @@
         width: 696px;
     }
 }
+
+@media screen and (max-width:767px){
+.banner{
+    background: url('../images/webPage_images/banner.jpg') center / cover;
+    height: 400px;
+    font-size: 26px;
+}
+
+}

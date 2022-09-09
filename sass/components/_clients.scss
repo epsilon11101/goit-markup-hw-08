@@ -1,9 +1,10 @@
 .clientes{
     & ul{
 
-    margin-top: 59px;
-    margin-bottom: 151px;
+    margin-top: 60px;
+    margin-bottom: 59px;
     gap: 30px;
+    flex-wrap: wrap;
     cursor: pointer;
     }
     & .container-svg{

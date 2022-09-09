@@ -342,6 +342,60 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   color: #2196F3;
 }
 
+@media screen and (max-width: 767px) {
+  footer {
+    min-height: 603px;
+  }
+  footer .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+  }
+  footer .footer-container .footer-address address, footer .footer-container .footer-icons div {
+    width: 233;
+    height: 83px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  footer .footer-container .footer-icons {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-container .footer-address {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-container .footer-address address ul {
+    margin-top: 6px;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-container .footer-address .logo {
+    font-size: 24px;
+    padding-bottom: 16px;
+  }
+  footer .footer-container .footer-suscription form {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-container .footer-suscription form .form-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-container .footer-suscription form .form-icon input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .footer-container .footer-suscription form .form-icon button {
+    margin-bottom: 60px;
+  }
+}
 .modal-container {
   position: fixed;
   width: 100%;

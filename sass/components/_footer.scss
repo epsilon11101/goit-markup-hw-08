@@ -11,7 +11,6 @@ footer{
             & .footer-address address, .footer-icons div{
                 width: 231px;
                 height: 95px;
-
             }
 
             & .footer-address {
@@ -25,6 +24,7 @@ footer{
 
 
             & .footer-suscription{
+                
                 & form{
                     width: 570px;
                     height: 85px;
@@ -103,5 +103,84 @@ footer{
                     
             }
         }
+
+}
+
+@media screen and (max-width:767px){
+footer{
+    min-height: 603px;
+    
+    & .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 60px;
+    
+            & .footer-address address, .footer-icons div{
+                width: 233;
+                height: 83px;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px; 
+            }
+
+            & .footer-icons{
+                justify-content: center;
+                align-items: center;
+            }
+
+
+
+            & .footer-address {
+                justify-content: center;
+                align-items: center;
+                & address {
+                    & ul{
+                        margin-top: 6px;
+                        gap:9px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                & .logo{
+                font-size: 24px;
+                padding-bottom: 16px;
+                }
+            }
+
+
+            & .footer-suscription{
+                
+                & form{
+                    display: flex;
+                    flex-direction: column;
+
+                    & .form-icon{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        & input{
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+
+                        & button{
+                            margin-bottom: 60px;
+                        }
+                    }
+                }
+
+
+            }
+
+
+
+        }
+
+}
 
 }

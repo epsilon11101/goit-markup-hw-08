@@ -467,7 +467,10 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   height: 15px;
   margin-left: 54px;
 }
-.modal-container form input[type=submit] {
+.modal-container form input:focus ~ span.input-icon .fa-solid {
+  color: #2196F3;
+}
+.modal-container form button[type=submit] {
   width: 200px;
   height: 50px;
   background: #188CE8;
@@ -475,14 +478,18 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   border-radius: 4px;
   color: white;
 }
-.modal-container form input:focus ~ span.input-icon .fa-solid {
-  color: #2196F3;
-}
 
 .modal-hidden {
   display: none;
 }
 
+@media screen and (max-width: 767px) {
+  .modal-container .modal-card {
+    top: -20%;
+    left: 0%;
+    max-width: 98%;
+  }
+}
 .banner {
   background: black url("../images/webPage_images/banner.jpg") no-repeat fixed center/cover;
   color: white;
@@ -660,7 +667,7 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
 
 @media screen and (max-width: 767px) {
   .our-team-container {
-    max-width: 480px;
+    max-width: 100%;
     max-height: 2761px;
   }
   .our-team-container .container {
@@ -760,7 +767,7 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
     max-height: 404px;
   }
   .portafolio img {
-    min-width: 450px;
+    min-width: 100%;
     height: 294px;
   }
 }
@@ -800,9 +807,7 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
     margin: auto 10px;
   }
   .menu ul {
-    max-width: 326px;
-    justify-content: left;
-    align-items: left;
+    max-width: 100%;
     gap: 10px;
   }
 }

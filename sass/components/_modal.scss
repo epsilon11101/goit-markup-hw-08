@@ -78,6 +78,16 @@
                     height: 15px;
                     margin-left: 54px;    
                 }
+
+                &:focus ~ span.input-icon {
+                    & .fa-solid{
+                        color: #2196F3;
+                    }
+                }
+
+            }
+
+            & button{
                 &[type="submit"]{
                     width: 200px;
                     height: 50px;
@@ -86,12 +96,6 @@
                     border-radius: 4px;
                     color:white;                    
                 }
-
-                &:focus ~ span.input-icon {
-                    & .fa-solid{
-                        color: #2196F3;
-                    }
-                }
             }
         }
     
@@ -99,4 +103,17 @@
 
 .modal-hidden{
     display: none;
+}
+
+
+@media screen and (max-width:767px){
+.modal-container{
+    & .modal-card{
+        top: -20%;
+        left:0%;
+        max-width: 98%;
+    }
+
+}
+
 }

@@ -61,3 +61,21 @@
         }
     }
 }
+
+@media screen and (max-width:767px){
+    .portafolio{
+        max-height: 4790px;
+            & figure {
+                min-width: 450px;
+                max-height: 404px;
+            }
+        & img{
+            min-width: 450px;
+            height: 294px;
+        }
+    }
+
+    
+
+    
+}

@@ -478,7 +478,7 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
 }
 .details-container .card .card-image {
   background-color: #F5F4FA;
-  width: 270px;
+  width: 100%;
   height: 120px;
 }
 .details-container .card .card-image img {
@@ -500,6 +500,18 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   color: #757575;
 }
 
+@media screen and (max-width: 767px) {
+  .details-container {
+    flex-direction: column;
+  }
+  .details-container .card {
+    width: 450px;
+    height: 241px;
+  }
+  .details-container .card .card-content :not(p.description) {
+    text-align: center;
+  }
+}
 .what_do_we_do {
   max-width: 1170px;
 }
@@ -537,6 +549,11 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   object-fit: cover;
 }
 
+@media screen and (max-width: 767px) {
+  .what_do_we_do {
+    display: none;
+  }
+}
 .our-team-container {
   margin-top: 94px;
   background-color: #F5F4FA;
@@ -554,6 +571,7 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
 }
 .our-team-container .our_team_div .our_team {
   gap: 30px;
+  flex-wrap: wrap;
 }
 .our-team-container .our_team_div .our_team figure {
   max-width: 270px;
@@ -586,6 +604,34 @@ footer .footer-container .footer-icons .fa-stack:hover .fa.fa-circle {
   margin-top: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  .our-team-container {
+    max-width: 480px;
+    max-height: 2761px;
+  }
+  .our-team-container .container {
+    min-height: 2761px;
+  }
+  .our-team-container h2 {
+    padding-top: 0px;
+    margin-bottom: 30px;
+  }
+  .our-team-container .our_team_div .our_team li {
+    max-height: 622px;
+  }
+  .our-team-container .our_team_div .our_team figure {
+    min-width: 450px;
+    min-height: 622px;
+  }
+  .our-team-container .our_team_div .our_team figure div img {
+    min-width: 100%;
+    min-height: 460px;
+    transition: all 0.5s;
+  }
+  .our-team-container .our_team_div .our_team figure figcaption {
+    max-height: 162px;
+  }
+}
 .clientes ul {
   margin-top: 59px;
   margin-bottom: 151px;

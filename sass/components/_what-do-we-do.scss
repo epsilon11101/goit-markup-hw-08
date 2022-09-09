@@ -1,6 +1,7 @@
 .what_do_we_do{
     max-width: 1170px;    
 
+
     & h2{
         margin-bottom: 52px;
     }
@@ -38,5 +39,12 @@
     & li {
      transition: all 0.5s;
      object-fit: cover;       
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .what_do_we_do{
+        display: none;
     }
 }

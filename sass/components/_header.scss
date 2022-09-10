@@ -7,10 +7,14 @@ header{
             gap: 50px;
         }
 
+        & ul.contact{
+             padding-left: 320px;
+        }
+
         & a:hover{
             color: map-get($brand_colors,'primary-blue');
         }
-        display: block;
+
         & .nav-item{
             position: relative;
             & a{
@@ -50,78 +54,6 @@ header{
     } 
 }
 
-
-@media screen and (max-width:767px){
-
-header{
-
-    nav.desk{
-        display: none;
-    }
-    nav.mobile{
-        display: block;
-        font-size: 40px;
-        padding: 20px;
-
-        & div .fa-xmark:hover{
-            color: map-get($brand_colors,'primary-blue');
-        }
-
-        & .burger-king-menu{
-            display: none;
-        }
-
-        & ul{
-            gap: 32px;
-
-            &.burger-king{
-               justify-content: space-between;
-               & li:last-child:hover{
-                    color: map-get($brand_colors,'primary-blue');
-               }
-            }
-        }
-        & .nav-item{
-            position: relative;
-            & a{
-
-                &::after,
-                &[href^='#']::after,
-                &:not([href^='#'])::after
-                {
-                        display: none;
-                }
-
-            }
-        }
-        & a{
-                &[href^='tel']{
-                    font-size: 34px;
-                }
-                &[href^='mailto']{
-                    font-size: 24px;
-                }
-        }
-
-        & .nav-footer{
-            gap: 20px;
-            margin-top: 64px;
-            
-            font-size: 18px;
-            color: map-get($brand_colors,'primary-blue');
-            & li{
-                padding-right: 10px;
-                border-right: map-get($brand_colors,'link-main-color') 1px solid;
-            }
-
-            & li:last-child{
-                border: none;
-            }
-        }
-
-    }
-}
-}
 
 
 

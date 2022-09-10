@@ -105,15 +105,3 @@
     display: none;
 }
 
-
-@media screen and (max-width:767px){
-.modal-container{
-    & .modal-card{
-        top: -20%;
-        left:0%;
-        max-width: 98%;
-    }
-
-}
-
-}

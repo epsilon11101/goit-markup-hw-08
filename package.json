@@ -4,7 +4,7 @@
   "description": "\"goit sass\"",
   "main": "index.js",
   "scripts": {
-    "start": "sass  sass:css --watch"
+    "start": "sass  sass:css --watch --style compressed"
   },
   "repository": {
     "type": "git",

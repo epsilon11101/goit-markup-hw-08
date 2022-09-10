@@ -56,43 +56,4 @@
 }
 
 
-@media screen and (max-width:767px){
-.our-team-container{
-    max-width: 100%;
-    max-height: 2761px;   
-    & .container{
-        min-height: 2761px;
-    }
-    & h2{
-        padding-top: 0px;
-        margin-bottom: 30px;    
-    }
-   & .our_team_div{
 
-    & .our_team{
-            
-            & li{
-                max-height: 622px;
-            }
-            & figure{
-                min-width: 450px ;
-                min-height: 622px;
- 
-            & div img{
-                    min-width: 100%;
-                    min-height: 460px;
-                    transition: all 0.5s;                   
-                }  
-
-            & figcaption{
-                    max-height: 162px;
-                }
-            }
-
- 
-    }
-     
-   }
-     
-}
-}
